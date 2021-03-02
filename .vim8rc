@@ -5,6 +5,9 @@ source ~/.config/nvim/damoa/ripgrep_settings.vim
 source ~/.config/nvim/damoa/navigating.vim
 source ~/.config/nvim/damoa/searching.vim
 source ~/.config/nvim/damoa/display.vim
+source ~/.config/nvim/damoa/my_code_highlighting.vim
+source ~/.config/nvim/damoa/advanced_mappings.vim
+source ~/.config/nvim/damoa/bdel_only.vim
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
