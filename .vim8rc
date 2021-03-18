@@ -1,21 +1,27 @@
 set rtp+=~/.fzf
 
-source ~/.config/nvim/damoa/vimspector_settings.vim
+source ~/.config/nvim/damoa/neomake_settings.vim
+source ~/.config/nvim/damoa/vim_airline.vim
 source ~/.config/nvim/damoa/ripgrep_settings.vim
 source ~/.config/nvim/damoa/navigating.vim
 source ~/.config/nvim/damoa/searching.vim
-source ~/.config/nvim/damoa/display.vim
 source ~/.config/nvim/damoa/my_code_highlighting.vim
 source ~/.config/nvim/damoa/advanced_mappings.vim
 source ~/.config/nvim/damoa/bdel_only.vim
+source ~/.config/nvim/damoa/typping.vim
+source ~/.config/nvim/damoa/files.vim
+source ~/.config/nvim/damoa/display.vim
+source ~/.config/nvim/damoa/vimspector_settings.vim
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
   au InsertEnter,InsertChange *
-    \ if v:insertmode == 'i' | 
+    \ if v:insertmode == 'i' |
     \   silent execute '!echo -ne "\e[6 q"' | redraw! |
     \ elseif v:insertmode == 'r' |
     \   silent execute '!echo -ne "\e[4 q"' | redraw! |
     \ endif
   au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
 endif
+
+au VimEnter * RainbowParenthesesToggle
