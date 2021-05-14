@@ -1,6 +1,5 @@
 set rtp+=~/.fzf
 
-source ~/.config/nvim/damoa/neomake_settings.vim
 source ~/.config/nvim/damoa/vim_airline.vim
 source ~/.config/nvim/damoa/ripgrep_settings.vim
 source ~/.config/nvim/damoa/navigating.vim
