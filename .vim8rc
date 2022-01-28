@@ -53,3 +53,5 @@ inoremap <S-Down> <Esc>:m+<CR>
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \}
+
+let g:UltiSnipsExpandTrigger="<tab>"
