@@ -1,7 +1,6 @@
 # My favorite Vim plugins
 
-[agit.vim](https://github.com/cohama/agit.vim)
-
+- [agit.vim](https://github.com/cohama/agit.vim)
 [ag.vim](https://github.com/rking/ag.vim)
 [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim)
 [FlyGrep.vim](https://github.com/wsdjeg/FlyGrep.vim)
