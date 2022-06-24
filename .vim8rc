@@ -12,6 +12,7 @@ source ~/.config/nvim/damoa/files.vim
 source ~/.config/nvim/damoa/display.vim
 source ~/.config/nvim/damoa/vimspector_settings.vim
 source ~/.config/nvim/damoa/open_browser_settings.vim
+source ~/.config/nvim/damoa/dbui_setup.vim
 
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
