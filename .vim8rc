@@ -57,3 +57,6 @@ let g:ale_linters = {
 
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:netrw_winsize = 100
+
+" fix clipboard
+set t_BE=
