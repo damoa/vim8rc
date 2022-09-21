@@ -27,6 +27,7 @@
 - [vim-projectionist](https://github.com/tpope/vim-projectionist)
 - [vim-rails](https://github.com/tpope/vim-rails)
 - [vim-rhubarb](https://github.com/tpope/vim-rhubarb)
+- [vim-sleuth](https://github.com/tpope/vim-sleuth.git)
 - [vim-solarized8](https://github.com/lifepillar/vim-solarized8)
 - [vimspector](https://github.com/puremourning/vimspector)
 - [vim-startify](https://github.com/mhinz/vim-startify)
